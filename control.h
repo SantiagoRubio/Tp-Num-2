@@ -6,7 +6,7 @@
  */
 static inline float control_proporcional(float error) {
   // Constante de proporcionalidad
-  const float k = 1.0;
+  const float k = 10000 / 10;
   // Devolver el porcentaje de ciclo de actividad
   return k * error;
 }
